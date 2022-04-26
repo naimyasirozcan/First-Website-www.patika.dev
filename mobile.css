@@ -1,0 +1,29 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 80px;
+}
+#home img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 3rem;
+}
+#services .items {
+    flex-direction: column;
+}
+#services .items .item {
+    margin: 0.7rem;
+    width: 90%;
+}
+.jobs .job {
+    display: flex;
+    flex-direction: column;
+}
+.jobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
