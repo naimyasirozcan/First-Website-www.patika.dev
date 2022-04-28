@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Navbar Section  */
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 60px;
+}
+
+#navbar h1 {
+    letter-spacing: 0.11rem;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    color: rgb(225, 212, 212);
+}
+
+/* Home Section  */
+
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    min-height: 100vh;
+    background-repeat: no;
+    font-size: s;
+}
+
+#home img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 100%;
+    padding: 1rem;
+    margin: 1.3rem;
+}
+
+#home .name {
+    text-align: center;
+}
+
+#home .name h2 {
+    margin-bottom: 0.80rem;
+}
+#home #linkedin {
+    background: rgb(3, 3, 57);
+}
+#home #linkedin:hover {
+    color: rgb(3, 3, 57);
+    background: white;
+    border: 1px solid rgb(3, 3, 57);
+}
+#home #behance {
+    background: #0038B6;
+}
+#home #behance:hover {
+    color: #0038B6;
+    background: white;
+    border: 1px solid #0038B6;
+}
+
+
+#home .name p {
+    font-style: italic;
+    opacity: 66%;
+}
+/* Hizmetler */
+
+#services {
+    color: white;
+    padding: 1rem;
+}
+#services .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+ 
+}
+#services .items .item {
+    text-align: center;
+    padding: 0.5rem;
+    width: 33%;
+}
+#services .items .item h3:hover {
+    color: rgb(225, 212, 212);
+    opacity: 0.8;
+    cursor:default;
+}
+
+/* Portfolyo / */
+
+#portfolio {
+    color: #00040e;
+    padding: 1rem
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.jobs .job {
+    display: flex;
+    margin: 0.5rem auto;
+    padding: 1.5rem;
+}
+.jobs .job .job-image {
+    margin-left: 0.5rem;
+    position: relative;
+}
+.jobs .job .job-image img{
+    width: 200px;
+    height: auto;
+    border-radius: 7px;
+}
+.jobs .job .job-image span {
+    color: white;
+    background: rgb(181, 59, 81);
+    border-radius: 4px;
+    position: absolute;
+    padding: 4px;
+    left: 4px;
+    top: 4px;
+}
+
+.jobs .job .job-info .title {
+    letter-spacing: 1.2;
+    font-weight: 666;
+    margin-bottom: 0.25rem;
+    margin-left: 1rem;
+}
+
+.jobs .job .job-info .description{
+    letter-spacing: 1.2;
+    margin-bottom: 0.25rem;
+    margin-left: 1rem;
+
+}
+
+/* Contact */
+
+#contact {
+    color: white;
+    padding: 1rem;
+    min-height: 100vh;
+}
+#contact button {
+    color: white;
+}
+
+#contact label {
+    display: block;
+}
+#contact .contact-form {
+    max-width: 900px;
+    margin: 0.5rem auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a {
+    margin: 0.33rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover {
+    opacity: 60%;
+}
+#contact .contact-form button:hover {
+    color: rgb(181, 59, 81);
+    background: white;
+    border: 1px solid rgb(181, 59, 81);
+}
